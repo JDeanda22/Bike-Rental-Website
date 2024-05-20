@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Yuma Bike Rentals</title>
+	<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+	<link rel="stylesheet" href="">
+	<style>
+	    * {
+		    box-sizing: border-box;
+		}
+		body {
+		    margin: 0px;
+		}
+		body {
+		    background-color: LightSteelBlue;
+		}
+	    .listing {
+		    border: 3px solid gray;
+			width: 28%;
+			float: left;
+			margin-right: 4px;
+		}
+		.pic {
+		    float: left;
+			object-fit: contain;
+			width: 240px;
+			height: 250px;
+			background-color: White;
+		}
+		#main {
+		    border: 2px solid black;
+			margin: 2px;
+			padding: 20px;
+			height: 800px;
+		}
+		h1 {
+		    text-align: center;
+			background-color: LightSlateGray;
+			font-family: Arial, Helvetica, sans-serif;
+			margin-top: 0px;
+			height: 50px;
+		}
+		
+	</style>
+	
+</head>
+<body>
+    <header>
+	    <h1>Yuma Bike Rentals</h2>
+	</header>
+	
+	<div id="main">
+		<div class="listing">
+			<img class="pic" src="kidsbike.jpg">
+			<b>Kids Bike
+			</b><br>
+			<span>Size: 20"</span>
+			<span>Status: Available</span>
+			<button>Rent</button>
+			<button onclick="rentBike(1)">Rent</button>
+	</div>
+	
+	<div class="listing">
+	    <img class="pic" src="streetbike.jpg">
+		<b>Street Bike
+		</b><br>
+		<span>Size: 28"</span>
+		<span>Status: Available</span>
+		<button>Rent</button>
+		</div>
+	<div class="listing">8
+	    <img class="pic" src="electricbike.jpg">
+		<b>Electric Bike
+		</b><br>
+		<span>Size: 24"</span>
+		<span>Status: Available</span>
+		<button>Rent</button>
+		</div>	
+	</div>
+	<script src="index.js">
+    </script>
+</body>
+</html>
